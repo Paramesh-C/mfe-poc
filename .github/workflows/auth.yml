@@ -30,5 +30,6 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "mfe-poc" #Must be unique in Heroku
           heroku_email: "sixerofsixes@gmail.com"
+          buildpack: "https://github.com/heroku/heroku-buildpack-static.git"
           dontuseforce: false #OPTIONAL and DEFAULT - false
           usedocker: false #OPTIONAL and DEFAULT - false
