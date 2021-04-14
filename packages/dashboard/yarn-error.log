@@ -1,0 +1,68 @@
+Arguments: 
+  D:\Studies\Softwares\Installed\node-v12.17.0-win-x64\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Studies\Softwares\Installed\WinMerge;D:\Studies\Softwares\Installed\MongoDB\Server\3.2\bin;D:\Studies\Softwares\Installed\Xampp\php;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;D:\Studies\Softwares\Installed\apache-maven-3.5.0\bin;C:\Program Files (x86)\Minimal ADB and Fastboot;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Paramesh\AppData\Local\Android\Sdk\tools;C:\Users\Paramesh\AppData\Local\Android\Sdk\tools\bin;C:\Users\Paramesh\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;D:\Studies\Softwares\Installed\apache-ant-1.10.5\bin;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;D:\Studies\Softwares\Installed\node-v12.17.0-win-x64;C:\Program Files (x86)\Yarn\bin\;C:\Users\Paramesh\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\Paramesh\AppData\Local\Programs\Python\Python35\;C:\Users\Paramesh\AppData\Local\Microsoft\WindowsApps;C:\Users\Paramesh\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\Paramesh\AppData\Roaming\npm;C:\Users\Paramesh\AppData\Local\Programs\Microsoft VS Code\bin;D:\Studies\Softwares\Installed\Fiddler;C:\Users\Paramesh\AppData\Local\Microsoft\WindowsApps;C:\Users\Paramesh\AppData\Local\Yarn\bin;C:\src\flutter\bin;W:\Project Works\govapp\gradle-4.10.1\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bower/-/bower-1.8.12.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141375:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:709:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:481:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "polymer-starter-kit",
+    "version": "4.0.0",
+    "description": "A starting point for Polymer apps",
+    "author": "The Polymer Authors",
+    "license": "BSD-3-Clause",
+    "repository": "Polymer/polymer-starter-kit",
+    "scripts": {
+      "start": "polymer serve",
+      "build": "polymer build",
+      "lint": "polymer lint",
+      "test": "polymer test",
+      "test:integration": "polymer build # test that psk builds without error with the CLI"
+    },
+    "dependencies": {
+      "@polymer/app-layout": "^3.0.0",
+      "@polymer/app-route": "^3.0.0",
+      "@polymer/iron-flex-layout": "^3.0.0",
+      "@polymer/iron-iconset-svg": "^3.0.0",
+      "@polymer/iron-media-query": "^3.0.0",
+      "@polymer/iron-pages": "^3.0.0",
+      "@polymer/iron-selector": "^3.0.0",
+      "@polymer/paper-icon-button": "^3.0.0",
+      "@polymer/polymer": "^3.0.0",
+      "@webcomponents/webcomponentsjs": "^2.0.0"
+    },
+    "devDependencies": {
+      "polymer-cli": "^1.7.1",
+      "wct-browser-legacy": "^1.0.0"
+    },
+    "engines": {
+      "node": ">=8.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
