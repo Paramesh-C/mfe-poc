@@ -20,7 +20,7 @@ jobs:
           node-version: '12'
       - run: npm install
       - run: npm run build
-       env:
+        env:
           PRODUCTION_DOMAIN: ${{ secrets.PRODUCTION_DOMAIN }}
 
       - uses: akhileshns/heroku-deploy@v3.0.4 # This is the action
